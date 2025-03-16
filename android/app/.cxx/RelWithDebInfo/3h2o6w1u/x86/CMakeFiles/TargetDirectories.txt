@@ -1,0 +1,2 @@
+/Users/dev/StudioProjects/k/webapp/dashrathgold/android/app/.cxx/RelWithDebInfo/3h2o6w1u/x86/CMakeFiles/edit_cache.dir
+/Users/dev/StudioProjects/k/webapp/dashrathgold/android/app/.cxx/RelWithDebInfo/3h2o6w1u/x86/CMakeFiles/rebuild_cache.dir

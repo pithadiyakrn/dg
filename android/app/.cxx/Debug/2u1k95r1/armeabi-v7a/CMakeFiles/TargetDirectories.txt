@@ -1,0 +1,2 @@
+/Users/dev/StudioProjects/k/webapp/dashrathgold/android/app/.cxx/Debug/2u1k95r1/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/dev/StudioProjects/k/webapp/dashrathgold/android/app/.cxx/Debug/2u1k95r1/armeabi-v7a/CMakeFiles/rebuild_cache.dir

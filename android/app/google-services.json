@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1042074746156",
+    "project_id": "jewel-sync",
+    "storage_bucket": "jewel-sync.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042074746156:android:4e99cf260aa988e0390089",
+        "android_client_info": {
+          "package_name": "com.kanhagold"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCLAxp1p7HOFPsLp_dxk6dysDHMiYP2QI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042074746156:android:a5e42cb71a3ba2b6390089",
+        "android_client_info": {
+          "package_name": "com.nitmangold"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCLAxp1p7HOFPsLp_dxk6dysDHMiYP2QI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

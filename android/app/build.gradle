@@ -1,0 +1,164 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+
+}
+dependencies {
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:33.8.0')
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    // TODO: Add the dependencies for Firebase products you want to use
+    // When using the BoM, don't specify versions in Firebase dependencies
+    implementation 'com.google.firebase:firebase-analytics'
+
+
+    // Add the dependencies for any other desired Firebase products
+    // https://firebase.google.com/docs/android/setup#available-libraries
+}
+
+android {
+
+    namespace = "com.kanhagold"
+    compileSdk = 34
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion flutter.targetSdkVersion
+        applicationId "com.nitmangold"
+        versionCode 43
+        versionName "12.14.0"
+        multiDexEnabled true
+
+    }
+    buildFeatures {
+        buildConfig true  // Enable the BuildConfig feature
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true     // Enable resource shrinking
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig = signingConfigs.debug
+        }
+    }
+    signingConfigs {
+        debug {
+//            storeFile file('debug.keystore')
+//            storePassword 'android'
+//            keyAlias 'androiddebugkey'
+//            keyPassword 'android'
+            storeFile file('my-release-key.keystore')
+            storePassword 'nitman123'
+            keyAlias 'my-key-alias'
+            keyPassword 'nitman123'
+        }
+        release {
+            storeFile file('my-release-key.keystore')
+            storePassword 'nitman123'
+            keyAlias 'my-key-alias'
+            keyPassword 'nitman123'
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+apply plugin: 'com.google.gms.google-services'
+
+
+
+//plugins {
+//    id "com.android.application"
+//    id "kotlin-android"
+//    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+//    id "dev.flutter.flutter-gradle-plugin"
+//}
+//
+//apply plugin: 'com.android.application'
+//apply plugin: 'com.google.gms.google-services'
+//
+//dependencies {
+//    // Import the Firebase BoM
+//    implementation platform('com.google.firebase:firebase-bom:33.8.0')
+//
+//    // Add the dependencies for Firebase products
+//    implementation 'com.google.firebase:firebase-analytics'
+//
+//    // Add the dependencies for any other desired Firebase products
+//    // https://firebase.google.com/docs/android/setup#available-libraries
+//}
+//
+//android {
+//    namespace = "com.kanhagold"
+//    compileSdk = flutter.compileSdkVersion
+//    ndkVersion = flutter.ndkVersion
+//ext{
+//    kotlin_version = "2.1.0"
+//}
+//    compileOptions {
+//        sourceCompatibility = JavaVersion.VERSION_1_8
+//        targetCompatibility = JavaVersion.VERSION_1_8
+//    }
+//
+//    kotlinOptions {
+//        jvmTarget = "1.8"
+//    }
+//
+//    defaultConfig {
+//        applicationId = "com.kanhagold"
+//        minSdk = 23
+//        targetSdk = flutter.targetSdkVersion
+//        versionCode = flutter.versionCode
+//        versionName = flutter.versionName
+//
+//        // Custom BuildConfig fields
+//        buildConfigField "String", "LIBRARY_NAME", "\"firebase-messaging\""
+//        buildConfigField "String", "LIBRARY_VERSION", "\"15.1.6\""
+//        multiDexEnabled true
+//    }
+//    // Enable BuildConfig generation
+//    buildFeatures {
+//        buildConfig true
+//    }
+//
+//    signingConfigs {
+//        release {
+//            storeFile file('my-release-key.jks')
+//            storePassword 'KNG@123'
+//            keyAlias 'KNG'
+//            keyPassword 'KNG@123'
+//        }
+//    }
+//
+//    buildTypes {
+//        release {
+//            signingConfig signingConfigs.release
+//        }
+//    }
+//}
+//
+//flutter {
+//    source = "../.."
+//}

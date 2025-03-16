@@ -1,0 +1,1 @@
+ /Users/dev/StudioProjects/k/webapp/nmg/.dart_tool/flutter_build/8aeef86393fd58e682d7bd9b6ba2490f/native_assets.yaml: 
