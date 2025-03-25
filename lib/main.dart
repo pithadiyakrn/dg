@@ -113,7 +113,6 @@ class _WebViewScreenState extends State<WebViewScreen> {
     notificationServices.forgroundMessage();
     notificationServices.isTokenRefresh();
     notificationServices.getDeviceToken().then((value){
-      print('value');
       print(value);
     });
 
@@ -418,15 +417,11 @@ class _WebViewScreenState extends State<WebViewScreen> {
     print(_fcmToken);
     print("here is passed token : $token1");
     final response = await http.get(
-        Uri.parse('https://catalogue.dashrathgold.com/api/catalogue/banners?device_token=$_fcmToken'), headers: headers);
-
+        Uri.parse('https://erp.dashrathgold.com/api/catalogue/banners?device_token=$_fcmToken'), headers: headers);
     if (response.statusCode == 200) {
       print("token passed");
     }
   }
-
-
-
 
   @override
   void dispose() {

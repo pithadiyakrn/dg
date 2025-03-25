@@ -37,8 +37,8 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
-        applicationId "com.nitmangold"
-        versionCode 43
+        applicationId "com.dashrathgold"
+        versionCode 45
         versionName "12.14.0"
         multiDexEnabled true
 
@@ -64,15 +64,15 @@ android {
 //            keyAlias 'androiddebugkey'
 //            keyPassword 'android'
             storeFile file('my-release-key.keystore')
-            storePassword 'nitman123'
+            storePassword 'dashrath123'
             keyAlias 'my-key-alias'
-            keyPassword 'nitman123'
+            keyPassword 'dashrath123'
         }
         release {
             storeFile file('my-release-key.keystore')
-            storePassword 'nitman123'
+            storePassword 'dashrath123'
             keyAlias 'my-key-alias'
-            keyPassword 'nitman123'
+            keyPassword 'dashrath123'
         }
     }
     buildTypes {

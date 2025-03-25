@@ -668,10 +668,10 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-03-16T06:35:54.884979Z",
+  "generated": "2025-03-25T14:37:25.758115Z",
   "generator": "pub",
-  "generatorVersion": "3.7.0",
+  "generatorVersion": "3.7.2",
   "flutterRoot": "file:///Users/dev/flutter",
-  "flutterVersion": "3.29.0",
+  "flutterVersion": "3.29.2",
   "pubCache": "file:///Users/dev/.pub-cache"
 }

@@ -1,40 +1,21 @@
 {
   "project_info": {
-    "project_number": "1042074746156",
-    "project_id": "jewel-sync",
-    "storage_bucket": "jewel-sync.firebasestorage.app"
+    "project_number": "442066469072",
+    "project_id": "jewelsync-pro",
+    "storage_bucket": "jewelsync-pro.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1042074746156:android:4e99cf260aa988e0390089",
+        "mobilesdk_app_id": "1:442066469072:android:92664ae46b5ecb03b81ed5",
         "android_client_info": {
-          "package_name": "com.kanhagold"
+          "package_name": "com.dashrathgold"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCCLAxp1p7HOFPsLp_dxk6dysDHMiYP2QI"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1042074746156:android:a5e42cb71a3ba2b6390089",
-        "android_client_info": {
-          "package_name": "com.nitmangold"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCCLAxp1p7HOFPsLp_dxk6dysDHMiYP2QI"
+          "current_key": "AIzaSyCMGCqRHajVPBdmdZ_tpEaBscpgf0G4a9Y"
         }
       ],
       "services": {

@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyBRnWXZIqsV9VbFw213D6tv4hGETN72ge0</string>
+	<string>AIzaSyDxXgtuyMF0ts2KmejoQQROj0SUQubDjWg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1042074746156</string>
+	<string>442066469072</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.nitman</string>
+	<string>org.dashrath</string>
 	<key>PROJECT_ID</key>
-	<string>jewel-sync</string>
+	<string>jewelsync-pro</string>
 	<key>STORAGE_BUCKET</key>
-	<string>jewel-sync.firebasestorage.app</string>
+	<string>jewelsync-pro.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1042074746156:ios:ce61ba39ca672414390089</string>
+	<string>1:442066469072:ios:5c16eb4ed651d0a3b81ed5</string>
 </dict>
 </plist>
